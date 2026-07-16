@@ -12,19 +12,6 @@
    MEMAKSA TAMPILAN LAPTOP SAMA DENGAN HP (MOBILE-ONLY)
 ======================================================== */
 
-/* 1. Berikan latar belakang luar pada body laptop (misal: warna biru khas Xudoku) */
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #002d5e; /* Warna background luar di laptop */
-    display: flex;
-    justify-content: center; /* Memposisikan tampilan HP tepat di tengah laptop */
-    align-items: flex-start;
-    min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* 2. Mengunci ukuran pembungkus agar seukuran layar HP */
 .mobile-wrapper {
     width: 100%;
     max-width: 450px; /* Standar lebar layar HP maksimal */
