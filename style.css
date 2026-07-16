@@ -8,7 +8,39 @@
     --font-header: 'Fredoka One', cursive;
     --font-body: 'Poppins', sans-serif;
 }
+/* =======================================================
+   MEMAKSA TAMPILAN LAPTOP SAMA DENGAN HP (MOBILE-ONLY)
+======================================================== */
 
+/* 1. Berikan latar belakang luar pada body laptop (misal: warna biru khas Xudoku) */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #002d5e; /* Warna background luar di laptop */
+    display: flex;
+    justify-content: center; /* Memposisikan tampilan HP tepat di tengah laptop */
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 2. Mengunci ukuran pembungkus agar seukuran layar HP */
+.mobile-wrapper {
+    width: 100%;
+    max-width: 450px; /* Standar lebar layar HP maksimal */
+    min-height: 100vh;
+    background-color: #ffffff; /* Warna dasar halaman dalam game kamu */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Bayangan di sisi kiri-kanan agar terlihat estetik di laptop */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Mencegah halaman bergeser melebihi batas HP */
+}
+
+/* 3. Menghapus kode Media Queries lama (jika ada) */
+/* Karena layout sudah dikunci maksimal 450px, kamu TIDAK perlu lagi menuliskan 
+   perintah @media (max-width: 768px). Semua kode css yang tadinya di dalam @media 
+   bisa kamu keluarkan agar langsung berlaku untuk laptop maupun HP. */
 /* Reset & Basic Setup */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
