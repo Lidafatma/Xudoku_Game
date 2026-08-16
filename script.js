@@ -230,6 +230,38 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p style="margin-top: 10px; font-weight: bold; color: #001f3f;">Kunci Jawaban: {x, y} = {2, 3}</p>
                     </div>
                 </div>
+
+                <div class="premium-equation-container" style="margin-top: 40px; text-align: left;">
+                    <div class="concept-box">
+                        <h4 class="box-label">Contoh Soal 3 (Soal Cerita)</h4>
+                        <p>Di sebuah toko alat tulis, Rani membeli 1 buku catatan dan 2 pulpen seharga Rp13.000. Sementara itu, Dodi membeli 3 buku catatan dan 1 pulpen seharga Rp24.000. Tentukan harga 1 buku catatan dan 1 pulpen menggunakan metode substitusi!</p>
+                        <div class="math-display-large">
+                            $$ \\begin{cases} x + 2y &= 13 \\\\ 3x + y &= 24 \\end{cases} $$
+                        </div>
+                    </div>
+                    <div style="background: #f0f7ff; padding: 20px; border-radius: 15px;">
+                        <b>Pembahasan:</b><br><br>
+                        <b>Model Matematika:</b><br>
+                        Misalkan harga buku catatan = x (dalam ribuan rupiah) dan harga pulpen = y (dalam ribuan rupiah).<br>
+                        $$ \\begin{cases} x + 2y &= 13 \\quad \\text{...(Persamaan 1)} \\\\ 3x + y &= 24 \\quad \\text{...(Persamaan 2)} \\end{cases} $$<br>
+
+                        <b>Langkah Penyelesaian:</b><br>
+                        1. Ubah Persamaan 1 menjadi bentuk eksplisit x:<br>
+                        $$ x = 13 - 2y $$<br>
+
+                        2. Substitusikan x = 13 - 2y ke dalam Persamaan 2:<br>
+                        $$ 3(13 - 2y) + y = 24 $$
+                        $$ 39 - 6y + y = 24 $$
+                        $$ 39 - 5y = 24 $$
+                        $$ -5y = 24 - 39 $$
+                        $$ -5y = -15 \\rightarrow y = 3 $$<br>
+
+                        3. Substitusikan nilai y = 3 ke rumus x = 13 - 2y:<br>
+                        $$ x = 13 - 2(3) $$
+                        $$ x = 13 - 6 \\rightarrow x = 7 $$
+                        <p style="margin-top: 15px; font-weight: bold; color: #001f3f;">Kunci Jawaban: Harga 1 buku catatan = Rp7.000 dan Harga 1 pulpen = Rp3.000 {x, y} = {7, 3}</p>
+                    </div>
+                </div>
             </div>
         `,
         eliminasi: `
@@ -326,6 +358,36 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p style="margin-top: 15px; font-weight: bold; color: #001f3f;">Kunci Jawaban: {x, y} = {2, 3}</p>
                     </div>
                 </div>
+                <div class="premium-equation-container" style="margin-top: 40px; text-align: left;">
+                    <div class="concept-box">
+                        <h4 class="box-label">Contoh Soal 3 (Soal Cerita)</h4>
+                        <p>Di tempat parkir terdapat sepeda motor dan mobil. Jumlah seluruh kendaraan adalah 25 buah, sedangkan jumlah seluruh roda kendaraan adalah 70 buah. Tentukan banyak sepeda motor dan mobil menggunakan metode eliminasi murni!</p>
+                        <div class="math-display-large">
+                            $$ \\begin{cases} x + y &= 25 \\\\ 2x + 4y &= 70 \\end{cases} $$
+                        </div>
+                    </div>
+                    <div style="background: #f0f7ff; padding: 20px; border-radius: 15px;">
+                        <b>Pembahasan:</b><br><br>
+                        <b>Model Matematika:</b><br>
+                        Misal jumlah motor (roda 2) = x dan jumlah mobil (roda 4) = y.<br>
+                        $$ \\begin{cases} x + y &= 25 \\\\ 2x + 4y &= 70 \\end{cases} $$<br>
+
+                        1. <b>Eliminasi x untuk mencari jumlah mobil (y)</b> (Kalikan persamaan atas dengan 2, lalu kurangkan bersusun):<br>
+                        $$ \\begin{cases} x + y = 25 & |\\times 2| \\\\ 2x + 4y = 70 & |\\times 1| \\end{cases} \\rightarrow \\begin{cases} 2x + 2y &= 50 \\\\ 2x + 4y &= 70 \\end{cases} $$
+                        <div class="math-display-large" style="margin: 15px 0;">
+                            $$ \\begin{array}{rcc} 2x + 2y &=& 50 \\\\ 2x + 4y &=& 70 \\\\ \\hline & -2y &=& -20 \\end{array} \\quad - $$
+                        </div>
+                        $$ -2y = -20 \\rightarrow y = 10 $$<br>
+
+                        2. <b>Eliminasi y untuk mencari jumlah motor (x)</b> (Kalikan persamaan atas dengan 4, lalu kurangkan bersusun):<br>
+                        $$ \\begin{cases} x + y = 25 & |\\times 4| \\\\ 2x + 4y = 70 & |\\times 1| \\end{cases} \\rightarrow \\begin{cases} 4x + 4y &= 100 \\\\ 2x + 4y &= 70 \\end{cases} $$
+                        <div class="math-display-large" style="margin: 15px 0;">
+                            $$ \\begin{array}{rcc} 4x + 4y &=& 100 \\\\ 2x + 4y &=& 70 \\\\ \\hline 2x &\\phantom{+ 4y}&=& 30 \\end{array} \\quad - $$
+                        </div>
+                        $$ 2x = 30 \\rightarrow x = 15 $$
+                        <p style="margin-top: 15px; font-weight: bold; color: #001f3f;">Kunci Jawaban: Banyak sepeda motor = 15 unit dan banyak mobil = 10 unit {x, y} = {15, 10}</p>
+                    </div>
+                </div>
             </div>
         `,
        campuran: `
@@ -404,6 +466,35 @@ document.addEventListener('DOMContentLoaded', () => {
                         $$ x + 3 = 5 $$
                         $$ x = 5 - 3 \\rightarrow x = 2 $$
                         <p style="margin-top: 15px; font-weight: bold; color: #001f3f;">Kunci Jawaban: {x, y} = {2, 3}</p>
+                    </div>
+                </div>
+
+                <div class="premium-equation-container" style="margin-top: 40px; text-align: left;">
+                    <div class="concept-box">
+                        <h4 class="box-label">Contoh Soal 3</h4>
+                        <p>Pak Budi membeli 2 kemeja dan 3 celana dengan total harga Rp190.000. Di toko yang sama, Pak Andi membeli 3 kemeja dan 2 celana dengan total harga Rp210.000. Tentukan harga 1 kemeja dan 1 celana menggunakan metode campuran!</p>
+                        <div class="math-display-large">
+                            $$ \\begin{cases} 2x + 3y &= 190 \\\\ 3x + 2y &= 210 \\end{cases} $$
+                        </div>
+                    </div>
+                    <div style="background: #f0f7ff; padding: 20px; border-radius: 15px;">
+                        <b>Pembahasan:</b><br><br>
+                        <b>Model Matematika:</b><br>
+                        Misal harga kemeja = x (dalam ribuan rupiah) dan harga celana = y (dalam ribuan rupiah).<br><br>
+
+                        1. <b>Eliminasi x untuk mencari nilai y</b> (Kalikan persamaan atas dengan 3 dan persamaan bawah dengan 2 agar koefisien x sama, lalu kurangkan bersusun):<br>
+                        $$ \\begin{cases} 2x + 3y = 190 & |\\times 3| \\\\ 3x + 2y = 210 & |\\times 2| \\end{cases} \\rightarrow \\begin{cases} 6x + 9y &= 570 \\\\ 6x + 4y &= 420 \\end{cases} $$
+                        <div class="math-display-large" style="margin: 15px 0;">
+                            $$ \\begin{array}{rcc} 6x + 9y &=& 570 \\\\ 6x + 4y &=& 420 \\\\ \\hline & 5y &=& 150 \\end{array} \\quad - $$
+                        </div>
+                        $$ 5y = 150 \\rightarrow y = 30 $$<br>
+
+                        2. <b>Substitusi y = 30</b> ke persamaan $$ 2x + 3y = 190 $$:<br>
+                        $$ 2x + 3(30) = 190 $$
+                        $$ 2x + 90 = 190 $$
+                        $$ 2x = 190 - 90 $$
+                        $$ 2x = 100 \\rightarrow x = 50 $$
+                        <p style="margin-top: 15px; font-weight: bold; color: #001f3f;">Kunci Jawaban: Harga 1 kemeja = Rp50.000 dan Harga 1 celana = Rp30.000 {x, y} = {50, 30}</p>
                     </div>
                 </div>
 
