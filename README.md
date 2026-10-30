@@ -52,7 +52,7 @@ HTML, CSS, JavaScript, di-hosting dengan GitHub Pages.
 2. Buka `index.html` di browser.
 
 ## Tangkapan Layar
-![Xudoku Math Plus](assets/ssxudoku.png)
+![Xudoku Math Plus](assets/ssxudoku.jpeg)
 
 ## Pengembang
 - Yustia Fikratul F. – Mahasiswa Pendidikan Matematika, Universitas PGRI Semarang
