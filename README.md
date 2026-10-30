@@ -52,10 +52,9 @@ HTML, CSS, JavaScript, di-hosting dengan GitHub Pages.
 2. Buka `index.html` di browser.
 
 ## Tangkapan Layar
-![Xudoku Math Plus](assets/screenshot.png)
+![Xudoku Math Plus](assets/ssxudoku.png)
 
 ## Pengembang
 - Yustia Fikratul F. – Mahasiswa Pendidikan Matematika, Universitas PGRI Semarang
-- Ade Ziyana Walidah Fatma – [isi peran kamu, mis. pengembang, perancang soal, atau penyusun materi]
-
+- Ade Ziyana Walidah Fatma – Mahasiswa Pendidikan Matematika, Universitas PGRI Semarang
 © 2026 Xudoku Math Plus – Pendidikan Matematika UPGRIS
